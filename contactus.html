@@ -46,6 +46,10 @@
       </header>
 
 
+  
+      <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="from_email@example.com"
+              action="https://script.google.com/macros/s/AKfycbxVIhFT_u1TJ2STihH6FsMx0v9TH3rCdwjhlIkGAg/exec">
+
     <section class="text-gray-700 body-font relative">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-12">
@@ -53,26 +57,33 @@
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base"> Any Business Requirement Please Free to Contact us. </div>
           <div class="lg:w-1/2 md:w-2/3 mx-auto">
             <div class="flex flex-wrap -m-2">
+             
+              
+    
+              
               <div class="p-2 w-1/2">
-                <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Name" type="text">
+                <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Name" type="text" id="name" name="name"> 
               </div>
               <div class="p-2 w-1/2">
-                <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Email" type="email">
+                <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Email" type="email" id="email" name="email">
               </div>
               <div class="p-2 w-full">
-                <textarea class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block" placeholder="Message"></textarea>
+                <textarea class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block" placeholder="Message" id="message" name="message"></textarea>
               </div>
               <div class="p-2 w-full">
-                <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" href="mailto:defendline@outlook.com">Submit</button>
-              </div>
+                <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+              </div>    </form>
               <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <p class="leading-normal my-5">DefendLine</p>
-                <a class="text-indigo-500" href="mailto:defendline@outlook.com">defendline@outlook.com</a><br>
-                 <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 href="https://api.whatsapp.com/send?phone=916384677473">Whatsapp us</button>
-           
-
+                <a class="text-indigo-500">defendline@outlook.com</a>
                   <br>
-                
+                  <div class="container">
+                    <a href="https://wa.me/916384677473" title="click to open whatsapp chat"><button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                    <i class="fa fa-whatsapp"></i> Whatsapp Us
+                    </button></a>
+                    </div>
+
+
 <br><br>    
                 <span class="inline-flex">
                   <a class="text-gray-500">
@@ -140,5 +151,7 @@
           </span>
         </div>
       </footer>
+
+   
 </body>
 </html>
